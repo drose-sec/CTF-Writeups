@@ -14,7 +14,7 @@ Platform: Tryhackme
 **Enumeration**
 After deploying the machine and obtaining the target IP (`10.146.146.136`), I started an nmap scan to see what was exposed:
 
-![[VirtualBox_KaliOS_02_06_2026_14_36_42.png | 600]]
+!(Photos/VirtualBox_KaliOS_02_06_2026_14_36_42.png)
 
 After the scan finished, we can see that ports 21, 22, and 80 are all open. We also see that FTP allows anonymous login access, so that immediately became my first target to see if I could find anything useful. I logged in using the username: `anonymous` & password: `anonymous`: 
 
